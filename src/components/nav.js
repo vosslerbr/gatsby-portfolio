@@ -4,7 +4,7 @@ import "../styles/nav-styles.css"
 
 const ListLink = props => (
   <li style={{ display: `inline-block` }}>
-    <Link to={props.to}>{props.children}</Link>
+    <Link to={props.to} activeClassName="active">{props.children}</Link>
   </li>
 )
 

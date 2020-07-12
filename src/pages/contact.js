@@ -1,4 +1,18 @@
-import React from "react"
-import Nav from '../components/nav'
+import React from "react";
+import Nav from '../components/nav';
+import PageWrapper from "../components/pagewrapper";
+import Title from "../components/title";
 
-export default () => <div>testing contact page <Nav /></div>
+export default function Contact() {
+    return (
+        <div>
+            <Nav />
+            <PageWrapper>
+                <Title name="Contact" />
+                {/* <Bio /> */}
+                {/* <Carousel/> */}
+                {/* <Skills /> */}
+            </PageWrapper>
+        </div>
+    );
+}

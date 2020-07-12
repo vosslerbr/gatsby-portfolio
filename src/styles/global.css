@@ -1,8 +1,21 @@
 @import "variables.css";
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     background-color: var(--dark-gray);
     color: var(--white);
     font-family: var(--main-font);
 }
 
+.column {
+    width: 100%;
+    max-width: 384px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    margin-bottom: 4rem;
+}

@@ -17,3 +17,12 @@ ul {
     max-width: 398px;
     margin: auto;
 }
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.active {
+    color: var(--orange);
+}

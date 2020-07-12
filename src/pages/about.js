@@ -2,6 +2,8 @@ import React from "react";
 import Nav from '../components/nav';
 import PageWrapper from "../components/pagewrapper";
 import Title from "../components/title";
+import Bio from "../components/bio";
+import Skills from "../components/skills";
 
 export default function About() {
     return (
@@ -9,9 +11,12 @@ export default function About() {
             <Nav />
             <PageWrapper>
                 <Title name="About" />
-                {/* <Bio /> */}
-                {/* <Carousel/> */}
-                {/* <Skills /> */}
+                <div style={{ display: `flex`, flexDirection: `row`, flexWrap: `wrap`, justifyContent: `space-between` }}>
+                    <Bio />
+                    <Bio />
+                    {/* <Carousel/> */}
+                    <Skills />
+                </div>
             </PageWrapper>
         </div>
     );
