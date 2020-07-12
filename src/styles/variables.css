@@ -1,0 +1,9 @@
+:root {
+    --dark-gray :#161A1F;
+    --med-gray: #39414B;
+    --orange: #E75748;
+    --white: #F7F9F8;
+    --green: #48C77E;
+    --main-font: 'Lato', sans-serif;
+    --main-shadow: 2px 3px 10px hsla(0, 0%, 0%, 0.26);
+}
