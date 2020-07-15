@@ -4,3 +4,9 @@ main {
     margin: auto;
     padding: 0 1rem; 
 }
+
+@media screen and (max-width: 830px) {
+    main {
+        max-width: 384px;
+    }
+}

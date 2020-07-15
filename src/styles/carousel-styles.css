@@ -1,0 +1,16 @@
+#chosenImage {
+    width: 100%;
+    max-width: 384px;
+}
+
+#thumbnailsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.carouselThumbnail {
+    max-width: 84px;
+}
