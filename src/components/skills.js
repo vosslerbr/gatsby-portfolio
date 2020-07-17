@@ -11,7 +11,7 @@ import sassIcon from "../images/sass-icon.png";
 export default function Skills() {
     return (
         <div>
-            <h2>My Skills</h2>
+            <h2 id="skillsHeading">My Skills</h2>
             <div>
                 <img src={htmlIcon} className="skillIconImage"/>
                 <img src={cssIcon} className="skillIconImage"/>
