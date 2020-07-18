@@ -15,9 +15,7 @@ export default function Projects() {
                     <ProjectCard 
                         source="weather-thumbnail" 
                         title="Weather App" 
-                        desc="A simple web application that fetches weather data for the 
-                        user’s location. The app uses the APIs from 
-                        DarkSky and MapBox." 
+                        desc="A simple web application that fetches weather data for the user’s location. The app uses the APIs from DarkSky and MapBox." 
                         githubLink="https://github.com/vosslerbr/weather-app"
                         demoLink="https://vosslerbr.github.io/weather-app"/>
                     <ProjectCard 
