@@ -21,3 +21,11 @@ body {
     padding-bottom: 1rem;
     margin-bottom: 1.5rem;
 }
+
+.link {
+    color: var(--orange);
+}
+
+.link:hover {
+    text-decoration: underline;
+}

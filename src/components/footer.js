@@ -7,7 +7,7 @@ export default function Footer() {
         <footer>
             <img src={myLogoWhite} id="footerLogo"/>
             <p>&copy; 2020 Brady Vossler</p>
-            <p>Made with <span role="img">❤️</span> using <a href="http://www.gatsbyjs.org">Gatsby</a></p>
+            <p>Made with <span role="img">❤️</span> using <a href="http://www.gatsbyjs.org" className="link">Gatsby</a></p>
         </footer>
     );
 }

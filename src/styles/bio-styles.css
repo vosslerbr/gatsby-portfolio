@@ -1,8 +1,8 @@
-#firstParagraph {
+.firstParagraph {
     margin-top: -0.5rem;
 }
 
-p {
+.bioParagraphs {
     margin-bottom: 1rem;
     line-height: 1.5rem;
 }

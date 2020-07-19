@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
             <p className="projectDesc">{props.desc}</p>
             <div class="projectLinks">
                 <a href={props.githubLink} target="_blank">GitHub Repo</a>
-                <a href="https://vosslerbr.github.io/hilogame" target="_blank">Demo</a>
+                <a href={props.demoLink} target="_blank">Demo</a>
             </div>
         </div>
     )
