@@ -28,10 +28,10 @@ export default function Projects() {
           />
           <ProjectCard
             source="weather-thumbnail"
-            title="Weather App"
-            desc="This web app fetches weather data for the user’s location. The app uses the APIs from DarkSky and MapBox."
-            githubLink="https://github.com/vosslerbr/weather-app"
-            demoLink="https://vosslerbr.github.io/weather-app"
+            title="Weather Boy"
+            desc="Weather Boy is a bot made for Discord. A work in progress, Weather Boy uses the APIs from DarkSky and MapBox to fetch weather data for a chosen location given to the bot by a user in Discord. "
+            githubLink="https://github.com/vosslerbr/Weather-Boy"
+            demoLink="https://vosslerbr.github.io/Weather-Boy/"
           />
           <ProjectCard
             source="hilo-thumbnail"
