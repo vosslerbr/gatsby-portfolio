@@ -1,10 +1,12 @@
 import React from "react"
-import "../styles/pagewrapper-styles.css";
+import styled from "styled-components"
 
-export default function PageWrapper({children}) {
-  return (
-      <main>
-          {children}
-      </main>
-  )
+const MainStyles = styled.main`
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+`
+
+export default function PageWrapper({ children }) {
+  return <MainStyles>{children}</MainStyles>
 }

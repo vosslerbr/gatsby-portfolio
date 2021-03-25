@@ -1,54 +1,99 @@
 import React from "react"
 import Nav from "../components/nav"
 import PageWrapper from "../components/pagewrapper"
-import Footer from "../components/footer"
-import githubLogo from "../images/github-logo.png"
-import instagramLogo from "../images/instagram-logo.png"
-import linkedinLogo from "../images/linkedin-logo.png"
-import "../styles/index-styles.css"
+
+import { SiGithub, SiInstagram, SiLinkedin } from "react-icons/si"
+import styled from "styled-components"
+import { Helmet } from "react-helmet"
+
+const PageStyles = styled.div`
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
+const ContentStyles = styled.div`
+  text-align: center;
+  margin-top: -72px;
+`
+
+const H1Styles = styled.h1`
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 1rem;
+  line-height: 0.8;
+  text-transform: uppercase;
+`
+
+const H2Styles = styled.h2`
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1rem;
+  line-height: 2.25rem;
+  text-transform: uppercase;
+`
+
+const IconContainerStyles = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: var(--white);
+  }
+
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 0.5rem;
+    transition: 0.2s;
+  }
+
+  svg:hover {
+    fill: var(--orange);
+  }
+`
 
 export default function Index() {
   return (
-    <div className="body">
+    <PageStyles>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Brady Vossler's Portfolio | Home</title>
+      </Helmet>
       <Nav />
       <PageWrapper>
-        <div className="indexContent">
-          <h1 className="indexHeading">Hi, I'm Brady</h1>
-          <p className="indexSubheading">I'm a front-end web developer</p>
-          <div className="socialIcons">
+        <ContentStyles>
+          <H1Styles>Hi, I'm Brady</H1Styles>
+          <H2Styles>I'm a web developer</H2Styles>
+          <IconContainerStyles>
             <a
               href="https://github.com/vosslerbr"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={githubLogo}
-                alt="GitHub logo"
-                className="socialMediaLogo"
-              />
+              <SiGithub />
             </a>
             <a
               href="https://www.instagram.com/vossler_br/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={instagramLogo}
-                alt="Instagram logo"
-                className="socialMediaLogo"
-              />
+              <SiInstagram />
             </a>
             <a
               href="https://www.linkedin.com/in/brady-j-vossler"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={linkedinLogo} className="socialMediaLogo" />
+              <SiLinkedin />
             </a>
-          </div>
-        </div>
+          </IconContainerStyles>
+        </ContentStyles>
       </PageWrapper>
-      <Footer />
-    </div>
+    </PageStyles>
   )
 }

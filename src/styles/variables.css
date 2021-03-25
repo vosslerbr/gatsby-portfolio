@@ -1,9 +1,9 @@
 :root {
-    --dark-gray :#161A1F;
-    --med-gray: #39414B;
-    --orange: #E75748;
-    --white: #F7F9F8;
-    --green: #48C77E;
-    --main-font: 'Lato', sans-serif;
-    --main-shadow: 2px 3px 10px hsla(0, 0%, 0%, 0.26);
+  --dark-gray: #161a1f;
+  --med-gray: #242b33;
+  --orange: #e75748;
+  --white: #f7f9f8;
+  --green: #48c77e;
+  --main-font: "Montserrat", sans-serif;
+  --main-shadow: 2px 3px 10px hsla(0, 0%, 0%, 0.26);
 }
