@@ -9,6 +9,7 @@ const CarouselStyles = styled.div`
   width: 100%;
   max-width: 1000px;
   overflow-x: scroll;
+  overflow-y: hidden;
   scroll-behavior: smooth;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
