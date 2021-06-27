@@ -20,8 +20,8 @@ export default function ContactContent() {
       <p>Fill out this form and I’ll be in touch!</p>
       <p>
         You can also reach me directly by email at{" "}
-        <a href="mailto:bradyvosslerwebdev@gmail.com" className="link">
-          bradyvosslerwebdev@gmail.com
+        <a href="mailto:bradyvossler@gmail.com" className="link">
+          bradyvossler@gmail.com
         </a>
       </p>
     </ContactContentStyles>
