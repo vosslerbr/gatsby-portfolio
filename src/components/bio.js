@@ -27,9 +27,7 @@ export default function Bio() {
 
       <p>
         My development toolbox includes technologies such as HTML, CSS (SCSS),
-        JavaScript, and Git/GitHub. I’ve recently begun working with React,
-        Express (Node.js), and MongoDB to expand my skills into back-end
-        development with the MERN stack.
+        JavaScript, and Git/GitHub. I’ve recently begun working with Gatsby, Sanity (headless CMS), and GraphQL to create fast, modern websites.
       </p>
     </BioContainerStyles>
   )
