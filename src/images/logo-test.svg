@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2541 941" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-229.8,-1029.61)">
+        <g transform="matrix(1,0,0,1,-120.2,208.784)">
+            <g transform="matrix(0.16885,-0.16885,0.16885,0.16885,411.299,990.504)">
+                <path d="M503.628,1685.73C611.065,1600.84 763.714,1510 925,1510C1227.71,1510 1861.62,2150 2151.67,2150C2245.9,2150 2331.51,2116.22 2404.15,2070.61C2243.79,2324.33 1899.04,2500 1500,2500C948.085,2500 500,2163.94 500,1750C500,1728.35 501.226,1706.91 503.628,1685.73ZM567.53,1478.71C712.65,1198.68 1075.63,1000 1500,1000C2051.91,1000 2500,1336.06 2500,1750C2500,1782.37 2497.26,1814.26 2491.94,1845.56C2404.99,1920.06 2287.26,1990 2151.67,1990C1861.62,1990 1227.71,1350 925,1350C793.501,1350 667.744,1410.38 567.53,1478.71Z" style="fill:rgb(242,214,91);"/>
+            </g>
+            <g transform="matrix(0.16885,-0.16885,0.16885,0.16885,818.143,1507.79)">
+                <path d="M503.628,1685.73C611.065,1600.84 763.714,1510 925,1510C1227.71,1510 1861.62,2150 2151.67,2150C2245.9,2150 2331.51,2116.22 2404.15,2070.61C2243.79,2324.33 1899.04,2500 1500,2500C948.085,2500 500,2163.94 500,1750C500,1728.35 501.226,1706.91 503.628,1685.73ZM567.53,1478.71C712.65,1198.68 1075.63,1000 1500,1000C2051.91,1000 2500,1336.06 2500,1750C2500,1782.37 2497.26,1814.26 2491.94,1845.56C2404.99,1920.06 2287.26,1990 2151.67,1990C1861.62,1990 1227.71,1350 925,1350C793.501,1350 667.744,1410.38 567.53,1478.71Z" style="fill:rgb(242,214,91);"/>
+            </g>
+            <g transform="matrix(11.3612,0,0,11.3612,-8346.69,-22118.1)">
+                <text x="763.471px" y="2055.4px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:50px;fill:rgb(242,214,91);">C</text>
+            </g>
+            <g transform="matrix(11.3612,0,0,11.3612,-8346.69,-21600.5)">
+                <text x="763.471px" y="2055.4px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:50px;fill:rgb(242,214,91);">GR</text>
+            </g>
+            <g transform="matrix(11.3612,0,0,11.3612,-7480.36,-22118.4)">
+                <text x="763.471px" y="2055.4px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:50px;fill:rgb(242,214,91);">URSE</text>
+            </g>
+            <g transform="matrix(11.3612,0,0,11.3612,-7068.52,-21606.2)">
+                <text x="763.471px" y="2055.4px" style="font-family:'AvenirNext-Bold', 'Avenir Next', sans-serif;font-weight:700;font-size:50px;fill:rgb(242,214,91);">UND</text>
+            </g>
+        </g>
+    </g>
+</svg>
